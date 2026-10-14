@@ -21,7 +21,7 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-white/[0.02] backdrop-blur-md border border-white/[0.05] p-8 rounded-2xl"
+          className="bg-white/2 backdrop-blur-md border border-white/5 p-8 rounded-2xl"
         >
           <h3 className="text-xl font-bold text-white mb-4 text-center sm:text-left">Full Stack Developer| MERN Stack Developer</h3>
           <p className="text-zinc-400 text-lg leading-relaxed text-center sm:text-left">

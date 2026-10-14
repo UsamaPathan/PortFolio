@@ -81,12 +81,12 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="bg-white/[0.02] backdrop-blur-md border border-white/[0.05] rounded-2xl p-6 flex flex-col justify-between hover:border-cyan-500/30 hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] hover:bg-white/[0.04] transition-all duration-500 group"
+              className="bg-white/2 backdrop-blur-md border border-white/5 rounded-2xl p-6 flex flex-col justify-between hover:border-cyan-500/30 hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] hover:bg-white/4 transition-all duration-500 group"
             >
               <div>
                 {/* Visual Project Thumbnail Container */}
                 {project.image && (
-                  <div className="w-full h-48 overflow-hidden rounded-xl mb-6 border border-white/[0.05] relative group-hover:border-cyan-500/20 transition-all duration-500">
+                  <div className="w-full h-48 overflow-hidden rounded-xl mb-6 border border-white/5 relative group-hover:border-cyan-500/20 transition-all duration-500">
                     <img
                       src={project.image}
                       alt={project.name}
@@ -94,7 +94,7 @@ const Projects = () => {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     {/* Subtle glow/shadow overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/60 via-transparent to-transparent opacity-80"></div>
+                    <div className="absolute inset-0 bg-linear-to-t from-[#0a0a0a]/60 via-transparent to-transparent opacity-80"></div>
                   </div>
                 )}
 

@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex flex-col justify-center items-center text-center px-4 relative overflow-hidden bg-[#0a0a0a]">
       {/* Subtle gradient glow */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-3xl z-0"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-[300px] h-[300px] bg-blue-500/10 rounded-full blur-3xl z-0"></div>
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 bg-cyan-500/10 rounded-full blur-3xl z-0"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-75 h-75 bg-blue-500/10 rounded-full blur-3xl z-0"></div>
 
       <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
         {/* Badge */}
